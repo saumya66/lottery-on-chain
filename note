@@ -1,0 +1,6 @@
+Flow on the testnet:
+    - First we get the subscriptionId from the chainlink vrf site and add it to the helper-hardhat-config.
+    - After that we deploy the contract on testnet.
+    - Then we take our contracts address and go to the above chainlink vrf site to create a consumer by adding our contract address.
+    - After that we go the the chainlink keepers site and by selecting custom logic we create a upkeep.
+    - That's it, then we do the staging test on the testnet.
